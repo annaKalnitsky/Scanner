@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive progress bar</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+     <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- main CSS -->
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+<!-- once shown modal -->
+  <div style="display:none" id="once-popup">
+      <div class="inner">
+            <form action="#" method="post" class="keep__inputs">
+              <div class="keep__icon">
+                <i class="fas fa-hand-point-up  faa-float animated"></i>
+              </div>
+              <div class="img-container">
+                <img class="keep__img" src="img/up.png" alt="">
+              </div>
+               <h4 class="keep__title animated fadeInLeft">
+                  Scanning completed.
+               </h4>
+               <p class="keep__text animated fadeInRight">
+                  Click here if you need me.  
+               </p>
+            </form>        
+      </div>
+  </div>  
+<!-- end once shown modal -->
+  </header>
+    <div class="main_container">
+      <div id="particles-js"></div>
+      <div id="page-wrapper">
+        <div id="container">
+            <div class="progress-bar-wrapper animated fadeInDown"></div>
+        </div>  
+    </div>
+
+        <script src="js/progress-bar.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/app-par.js"></script>
+        <script src="js/jquery-3.4.0.min.js"></script>
+        <script src="js/main.js"></script>  
+</body>
+</html>
+
